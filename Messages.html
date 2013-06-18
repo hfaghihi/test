@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="main">
+    <div class="container">
+
+        <div id="header">
+
+            <div id="logo">
+
+            </div>
+            <!--Menu------------------------------------------------------------------------------->
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Lessons</a></li>
+                <li><a href="#">Discussions</a></li>
+                <li><a href="#">Suggestions</a></li>
+                <li><a href="#">Corners</a></li>
+                <li><a href="#">Tags</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+
+        </div>
+
+        <!--sidebaruser------------------------------------------------------------------------->
+        <div id="sidebaruser">
+            <!--<div id="user-picture">-->
+                <img id="user-picture" src="Images/user-picture.png">
+            <!--</div>-->
+            <p id="user-name"> John Anderson </p>
+            <!--userstatus----------------------------------------------------------------------------->
+                <input type="text" id="user-status-text" value="status here">
+            <!--usermenu------------------------------------------------------------------------------->
+            <div id="user-menu">
+                <ul id="left-column">
+                    <li><a class="profile" href="file:///D:/Member%20Area%20-%202/member.html">Profile</a></li>
+                    <li><a class="history" href="file:///D:/Member%20Area%20-%202/history.html">History</a></li>
+                    <li><a class="shared-items" href="#">Shared Items</a></li>
+                    <li><a class="messages" href="file:///D:/Member%20Area%20-%202/messages.html">Messages</a></li>
+                    <li><a class="friends" href="file:///D:/Member%20Area%20-%202/friends.html">Friends</a></li>
+                    <li><a class="notifications" href="#">Notifications</a></li>
+                    <li><a class="annotations" href="#">Annotations</a></li>
+                </ul>
+            </div>
+            <!--statistics----------------------------------------------------------------------------->
+            <div id="statistics">
+                <p> Statistics </p>
+                <p> Member Since: <br/>
+                    Profile hits: <br/>
+                    Freinds:
+                </p>
+            </div>
+        </div>
+
+        <!--content--------------------------------------------------------------->
+
+        <div id="content">
+            <div id="user-information">
+                <span id="user-country">USA</span>
+                <span id="user-languages">English, French, Arabian, Italian</span>
+                <span id="last-login"> Last login 2 day ago</span>
+            </div>
+            <div id="serach-messages">
+                <ul id="pagination">
+                    <li id="Previous"><a href="#">Previous - </a></li>
+                    <li><a class="active" href="#">1</a></li>
+                    <li><a href="#"> | 2</a></li>
+                    <li><a href="#"> | 3</a></li>
+                    <li><a href="#"> | 4</a></li>
+                    <li><a href="#"> | 5</a></li>
+                    <li id="Next"><a href="#"> - Next</a></li>
+                </ul>
+                <input type="text" id="search-messages-text" value="Search Messages" >
+                <button id="search-button"></button>
+            </div>
+            <div id="menu-message">
+                <ul id="menu-message-list">
+                    <li><a class="new-message" href="#">New</a></li>
+                    <li><a class="inbox-message" href="#">Inbox</a></li>
+                    <li><a class="outbox-message" href="#">Outbox</a></li>
+                    <li><a class="trash-message" href="#">Trash</a></li>
+                </ul>
+            </div>
+            <div id="view-arrange">
+                <input  type="checkbox" id="view-arrange-checkbox">
+                <span id="view-message">View: All</span>
+                <a id="view-message-icon" href="#"></a>
+                <span id="arrange-message">Arrange by</span>
+                <a id="arrange-message-icon" href="#"></a>
+            </div>
+
+            <div class="user-messages">
+                <input type="checkbox" class="checkbox-message"/>
+                <span class="sender-pic"></span>
+                <p class="sender-id">Jason Clark:<p class="sender-subject">The direction face</p></p>
+                <span class="date-time">10-25-2013, 10:32 PM</span>
+                <p class="text-message">Important Notice: If you have received this email by mistake, please advise the
+                    sender and delete the message and attachments immediately. This email, including attachments, may
+                    contain ... <a class="more" href="#"></a> </p>
+            </div>
+
+            <div class="user-messages">
+                <input type="checkbox" class="checkbox-message"/>
+                <span class="sender-pic"></span>
+                <p class="sender-id">Alex Graham:<p class="sender-subject">The direction face</p></p>
+                <span class="date-time">10-25-2013, 10:32 PM</span>
+                <p class="text-message">Important Notice: If you have received this email by mistake, please advise the
+                    sender and delete the message and attachments immediately. This email, including attachments, may
+                    contain confidential, sensitive, legally privileged and/or copyright information. Any review, This
+                    email, including attachments, may contain confidential, sensitive, legally privileged and/or
+                    copyright information.immediately. This email, including attachments, may contain confidential,
+                    sensitive, legally privileged and/or copyright information. </p>
+                <ul id="message-icon">
+                    <li><a class="message-icon-forward" href="#"></a></li>
+                    <li><a class="message-icon-reply" href="#"></a></li>
+                    <li><a class="message-icon-trash" href="#"></a></li>
+                </ul>
+            </div>
+
+            <div class="user-messages">
+                <input type="checkbox" class="checkbox-message"/>
+                <span class="sender-pic"></span>
+                <p class="sender-id">Brian Stivenson:<p class="sender-subject">The direction face</p></p>
+                <span class="date-time">10-25-2013, 10:32 PM</span>
+                <p class="text-message">Important Notice: If you have received this email by mistake, please advise the
+                    sender and delete the message and attachments immediately. This email, including attachments, may
+                    contain confidential, sensitive, legally privileged and/or copyright information. Any review, This
+                    email, including attachments, may contain confidential, sensitive, legally privileged and/or
+                    copyright information.immediately. This email, including attachments, may contain confidential,
+                    sensitive, legally privileged and/or copyright information. </p>
+                <ul id="reply-message" >
+                    <li id="reply-to-user"><p id="name-user-reply">Brian Stivenson</p><p id="date-time-reply">May 27, 2013 at 9:21 AM</p>
+                        </li>
+                    <li id="ddd"><textarea id="reply-text" ></textarea></li>
+                    <!--<li><button id="reply-button">Reply</button></li>-->
+                    <li id="button-reply"><button id="reply-button" >Reply</button>
+                        <button id="cancel-icon"></button></li>
+                </ul>
+                <!--<div id="reply-message">-->
+                    <!--<div id="seperator-up">-->
+                        <!--<p id="reply-to-user">Brian Stivenson</p>-->
+                        <!--<p id="date-time-reply">Date: May 27, 2013 at 9:21 AM</p>-->
+                        <!--<P style="left: 671px; position:absolute; color:#6a6969;">|</P>-->
+                        <!--<a id="reply-icon"></a>-->
+                    <!--</div>-->
+                    <!--<textarea id="reply-text" ></textarea>-->
+
+                    <!--<div id="seperator-down">-->
+                        <!--<input type="button" id="reply-button" value="Reply">-->
+                        <!--<P style="left: 671px; position:absolute; top: 2px; color:#5b3f24;">|</P>-->
+                        <!--<a id="cancel-icon" href="#"></a>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <ul id="message-icon3">
+                    <li><a class="message-icon-forward" href="#"></a></li>
+                    <li><a class="message-icon-reply" href="#"></a></li>
+                    <li><a class="message-icon-trash" href="#"></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+<!--sidebar-------------------------------------------------------------------------->
+        <div id="sidebar">
+            <!--onlinefriends--------------------------------------------------------->
+
+            <div id="online-friends">
+                <p id="p-online-friends"> Online Friends </p>
+            <div id="d-friends">
+                    <a id="a-pic"></a>
+                    <a id="a-name" href="#">Jason Clark</a>
+                    <a id="a-name-status" href="#">The direction of qiblah is a </a>
+            </div>
+
+            </div>
+            <!--Glossary Search---------------------------------------------------------->
+            <div id="glossary-search">
+                <p id="p-glossary-search"> Glossary Search </p>
+                <input type="text" id="glossary-search-text" value="Look up islamic terms">
+                <p id="qiblah">Qiblah</p>
+
+                <p id="qiblah-direction"> The same way as we set the within an div of unspecified width, and then
+                    adding the within an div of unspecified width, and then adding the v within an div of
+                    unspecified width, and then adding the within an div of unspecified width, and then
+                    adding the within </p>
+                <p></p>
+            </div>
+            <!--Tag Cloud--------------------------------------------------------------->
+            <div id="tag-cloud">
+                <p id="p-tag-cloud"> Tag Cloud </p>
+                <div id="tags">
+                    <a href="*">Islam</a>
+                    <a href="*">Muhammad</a>
+                    <a href="*">Hijab</a>
+                    <a href="*">Islam</a>
+                    <a href="*">Justice</a>
+                    <a href="*">God</a>
+                    <a href="*">Imamah</a>
+                    <a href="*">Qiblah</a>
+                    <a href="*">Freedom</a>
+                </div>
+
+            </div>
+        </div>
+    <div id="footer">
+            <p>copyright Islam IFC : all rights reserved</p>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
