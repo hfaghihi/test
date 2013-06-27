@@ -39,7 +39,7 @@
                 <ul id="left-column">
                     <li><a class="profile" href="file:///D:/Member%20Area%20-%202/member.html">Profile</a></li>
                     <li><a class="history" href="file:///D:/Member%20Area%20-%202/history.html">History</a></li>
-                    <li><a class="shared-items" href="#">Shared Items</a></li>
+                    <li><a class="shared-items" href="file:///D:/Member%20Area%20-%202/Shared-items.html">Shared Items</a></li>
                     <li><a class="messages" href="file:///D:/Member%20Area%20-%202/messages.html">Messages</a></li>
                     <li><a class="friends" href="file:///D:/Member%20Area%20-%202/friends.html">Friends</a></li>
                     <li><a class="notifications" href="#">Notifications</a></li>
@@ -64,7 +64,7 @@
                 <span id="user-languages">English, French, Arabian, Italian</span>
                 <span id="last-login"> Last login 2 day ago</span>
             </div>
-            <div id="serach-messages">
+            <div id="header-messages">
                 <ul id="pagination">
                     <li id="Previous"><a href="#">Previous - </a></li>
                     <li><a class="active" href="#">1</a></li>
@@ -74,8 +74,13 @@
                     <li><a href="#"> | 5</a></li>
                     <li id="Next"><a href="#"> - Next</a></li>
                 </ul>
-                <input type="text" id="search-messages-text" value="Search Messages" >
-                <button id="search-button"></button>
+                <div id="search-messages">
+                    <form id="search-messages-form">
+                        <input type="text" id="search-messages-text" value="Search Messages" >
+                        <button id="search-button"></button>
+                    </form>
+                </div>
+
             </div>
             <div id="menu-message">
                 <ul id="menu-message-list">
@@ -98,7 +103,7 @@
                 <span class="sender-pic"></span>
                 <p class="sender-id">Jason Clark:<p class="sender-subject">The direction face</p></p>
                 <span class="date-time">10-25-2013, 10:32 PM</span>
-                <p class="text-message">Important Notice: If you have received this email by mistake, please advise the
+                <p class="text-message-unread">Important Notice: If you have received this email by mistake, please advise the
                     sender and delete the message and attachments immediately. This email, including attachments, may
                     contain ... <a class="more" href="#"></a> </p>
             </div>
@@ -108,7 +113,7 @@
                 <span class="sender-pic"></span>
                 <p class="sender-id">Alex Graham:<p class="sender-subject">The direction face</p></p>
                 <span class="date-time">10-25-2013, 10:32 PM</span>
-                <p class="text-message">Important Notice: If you have received this email by mistake, please advise the
+                <p class="text-message-read">Important Notice: If you have received this email by mistake, please advise the
                     sender and delete the message and attachments immediately. This email, including attachments, may
                     contain confidential, sensitive, legally privileged and/or copyright information. Any review, This
                     email, including attachments, may contain confidential, sensitive, legally privileged and/or
@@ -126,7 +131,7 @@
                 <span class="sender-pic"></span>
                 <p class="sender-id">Brian Stivenson:<p class="sender-subject">The direction face</p></p>
                 <span class="date-time">10-25-2013, 10:32 PM</span>
-                <p class="text-message">Important Notice: If you have received this email by mistake, please advise the
+                <p class="text-message-read">Important Notice: If you have received this email by mistake, please advise the
                     sender and delete the message and attachments immediately. This email, including attachments, may
                     contain confidential, sensitive, legally privileged and/or copyright information. Any review, This
                     email, including attachments, may contain confidential, sensitive, legally privileged and/or
@@ -179,9 +184,15 @@
 
             </div>
             <!--Glossary Search---------------------------------------------------------->
-            <div id="glossary-search">
+            <div id="glossary">
                 <p id="p-glossary-search"> Glossary Search </p>
-                <input type="text" id="glossary-search-text" value="Look up islamic terms">
+                <!--<div id="glossary-search">-->
+                <form id="form-glossary-search">
+                    <input type="text" id="glossary-search-text" value="Look up islamic terms">
+                    <button id="glossary-search-button"></button>
+                </form>
+                <!--</div>-->
+
                 <p id="qiblah">Qiblah</p>
 
                 <p id="qiblah-direction"> The same way as we set the within an div of unspecified width, and then

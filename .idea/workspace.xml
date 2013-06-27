@@ -23,16 +23,25 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="850" column="10" selection-start="18014" selection-end="18014" vertical-scroll-proportion="-2.3950796">
+            <state line="520" column="0" selection-start="10781" selection-end="10781" vertical-scroll-proportion="0.5325615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Friends.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Friends.html">
+      <file leaf-file-name="Shared-items.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shared-items.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="88" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0">
+            <state line="76" column="32" selection-start="3355" selection-end="3355" vertical-scroll-proportion="-8.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="History.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/History.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="0" selection-start="4141" selection-end="4141" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
           </provider>
@@ -50,11 +59,15 @@
       <list>
         <option value="$PROJECT_DIR$/44.html" />
         <option value="$PROJECT_DIR$/MM.html" />
-        <option value="$PROJECT_DIR$/Member.html" />
-        <option value="$PROJECT_DIR$/History.html" />
+        <option value="$PROJECT_DIR$/friends-search.html" />
+        <option value="$PROJECT_DIR$/serarchfriends.html" />
         <option value="$PROJECT_DIR$/Messages.html" />
-        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/Member.html" />
+        <option value="$PROJECT_DIR$/search-friends.html" />
         <option value="$PROJECT_DIR$/Friends.html" />
+        <option value="$PROJECT_DIR$/Shared-items.html" />
+        <option value="$PROJECT_DIR$/History.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -90,6 +103,44 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Member Area - 2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Member Area - 2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Images">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files" />
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -142,42 +193,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Member Area - 2">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Changed Files" />
-        <subPane subId="All">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="fileTemplates" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="E:/Member Area - 2" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="E:/Member Area - 2" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -189,16 +216,7 @@
       <recent name="D:\Member Area - 2\Images\mnupic" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Messages.html">
-    <configuration default="false" name="Member.html" type="JavascriptDebugSession" factoryName="Local" temporary="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="chrome" />
-        <option name="fileUrl" value="file://$PROJECT_DIR$/Member.html" />
-      </JSDebuggerConfigurationSettings>
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.search-friends.html">
     <configuration default="false" name="History.html" type="JavascriptDebugSession" factoryName="Local" temporary="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="chrome" />
@@ -226,6 +244,24 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="search-friends.html" type="JavascriptDebugSession" factoryName="Local" temporary="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="chrome" />
+        <option name="fileUrl" value="file://$PROJECT_DIR$/search-friends.html" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Shared-items.html" type="JavascriptDebugSession" factoryName="Local" temporary="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="chrome" />
+        <option name="fileUrl" value="file://$PROJECT_DIR$/Shared-items.html" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
@@ -233,18 +269,20 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Member.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.History.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Messages.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Friends.html" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.History.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Messages.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Friends.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.search-friends.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Shared-items.html" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Messages.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Friends.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.search-friends.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Shared-items.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.History.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Member.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Friends.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Messages.html" />
       </list>
     </recent_temporary>
   </component>
@@ -276,14 +314,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15091947" sideWeight="0.60379463" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39620537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15979709" sideWeight="0.6703911" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3952514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -350,16 +388,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Messages.html">
+    <entry file="file://$PROJECT_DIR$/Friends.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="9" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="65" column="30" selection-start="2863" selection-end="2863" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Member.html">
@@ -397,41 +428,56 @@
         <state line="18" column="1" selection-start="194" selection-end="194" vertical-scroll-proportion="0.14761215" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Images/history-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Images/main.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/History.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="94" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.81804514" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Member.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="98" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.7413534" />
+        <state line="46" column="80" selection-start="2328" selection-end="2328" vertical-scroll-proportion="-14.384615">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Messages.html">
+    <entry file="file://$PROJECT_DIR$/search-friends.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="89" selection-start="1992" selection-end="1992" vertical-scroll-proportion="0.40902257" />
+        <state line="34" column="35" selection-start="1106" selection-end="1106" vertical-scroll-proportion="-12.423077">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Friends.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="88" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0">
+        <state line="70" column="26" selection-start="3075" selection-end="3075" vertical-scroll-proportion="-2.0451128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Messages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="36" selection-start="3051" selection-end="3051" vertical-scroll-proportion="0.4857143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared-items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="32" selection-start="3355" selection-end="3355" vertical-scroll-proportion="-8.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/History.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="0" selection-start="4141" selection-end="4141" vertical-scroll-proportion="-9.153846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="850" column="10" selection-start="18014" selection-end="18014" vertical-scroll-proportion="-2.3950796">
+        <state line="520" column="0" selection-start="10781" selection-end="10781" vertical-scroll-proportion="0.5325615">
           <folding />
         </state>
       </provider>
